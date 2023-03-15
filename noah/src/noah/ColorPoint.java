@@ -12,5 +12,4 @@ public class ColorPoint extends Point {
 		System.out.print(color);
 		showPoint();
 	}
-
 }
