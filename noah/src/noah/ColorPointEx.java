@@ -18,6 +18,7 @@ public class ColorPointEx {
 		cp.set(3, 4);
 		cp.setColor("red");
 		cp.showColorPoint();
+		//cp.x=100; private로 선언했기 때문에 사용 불가능.
 		
 	}
 }
