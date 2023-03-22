@@ -1,4 +1,4 @@
-package noah;
+package in05;
 
 public class Student extends Person{
 	public void set() {

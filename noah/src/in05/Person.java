@@ -1,4 +1,4 @@
-package noah;
+package in05;
 
 public class Person {
 	private int weight;
