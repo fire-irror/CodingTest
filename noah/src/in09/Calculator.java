@@ -1,0 +1,7 @@
+package in09;
+
+abstract class Calculator {
+public abstract int add(int a,int b);  //추상메서드
+public abstract int subtract(int a,int b);
+public abstract int  average(int []a,int b);
+}
