@@ -1,4 +1,4 @@
-package pack08;
+package pack06;
 
 public class AutoBoxingUnBoxingEX {
 	public static void main(String agrs[]) {
