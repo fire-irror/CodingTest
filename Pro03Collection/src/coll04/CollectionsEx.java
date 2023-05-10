@@ -6,9 +6,9 @@ import java.util.LinkedList;
 
 public class CollectionsEx {
 
-	static void printList(LinkedList<String> l) {
-		Iterator<String> iterator = l.iterator();
-		while (iterator.hasNext()) {
+	static void printList(LinkedList<String> l) {	//l=myList
+		Iterator<String> iterator = l.iterator();	//순차적으로 접근하기 위함
+		while (iterator.hasNext()) {				//iterator가 가리키는 곳에 데이터가 존재하면 true
 			String e = iterator.next();
 			String separator;
 			if (iterator.hasNext())
@@ -32,9 +32,12 @@ public class CollectionsEx {
 
 		printList(myList);
 
-		Collections.sort(myList);
+		Collections.sort(myList);	//오름차순 정렬(ascending sort)
+		printList(myList);
 
-		Collections.reverse(myList);
+		Collections.reverse(myList);	//myList에 들어있는 데이터들이 역순으로 정렬된다.
+		printList(myList);
+		
 		int index = Collections.binarySearch(myList, "아바타") + 1;
 		System.out.println("아바타는 " + index + "번째 요소입니다");
 	}
