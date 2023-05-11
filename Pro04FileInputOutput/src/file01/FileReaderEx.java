@@ -22,7 +22,9 @@ public class FileReaderEx {
 				//그래서 true를 반환하면 파일의 끝가지 읽어서 화면에 출력한다. 
 				System.out.print((char)c);
 			}
-			fin.close();	//파일을 닫아준다 더 이상 fin객체변수를 사용하지 않겠다라는 뜻
+			fin.close();	
+			//파일을 닫아준다 더 이상 fin객체변수를 사용하지 않겠다라는 뜻
+			//이 파일을 사용하지 않겠다.
 		}catch(IOException e) {
 			System.out.println("입출력 오류");
 		}
