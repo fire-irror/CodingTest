@@ -24,6 +24,7 @@ public class FileWriteEx {
 				fout.write(line, 0, line.length());
 				//fout이 가리키는 "text.txt"파일에 line의 0번째 데이터부터 입력된 데이터의 길이 만큼을 저장한다.
 				fout.write("\r\n", 0, 2);	//fout이 가리키는 "text.txt"파일에 줄을 바꾸고 커서를 맨 앞으로 이동
+				
 			}
 			fout.close();
 		} catch (IOException e) {
