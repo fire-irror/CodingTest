@@ -7,7 +7,7 @@ import javax.swing.JLabel;
 public class FlickeringLabel extends JLabel implements Runnable {
 	private long delay;
 	
-	public FlickeringLabel (String text, long dely) {
+	public FlickeringLabel (String text, long dely) {	//text는 click을 넘겨줌 , 딜레이는 500
 		super(text);
 		this.delay = dely;
 		setOpaque(true);
