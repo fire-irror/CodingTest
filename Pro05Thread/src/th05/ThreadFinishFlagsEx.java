@@ -29,7 +29,7 @@ public class ThreadFinishFlagsEx extends JFrame{
 		setVisible(true);
 		
 		th = new RandomThread(c);
-		th.start();	//thread 실행
+		th.start();	//thread 실행.
 	}
 	public static void main(String args[]) {
 		new ThreadFinishFlagsEx();

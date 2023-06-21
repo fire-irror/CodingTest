@@ -37,7 +37,7 @@ public class RandomThread extends Thread {
 				if (flag == true) {
 					contentPane.removeAll();
 					//컨테이너ㅔ 있는 모든 오브젝트를 삭제한다.
-					label = new JLabel("finish"); //새로운 레이블 생성
+					label = new JLabel("finish"); //새로운 레이블 생성.
 					label.setSize(80, 30);
 					label.setLocation(100, 100);
 					label.setForeground(Color.RED);
